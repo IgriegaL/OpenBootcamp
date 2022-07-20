@@ -11,8 +11,8 @@ public class Main {
         System.out.println(calcIva(num));
 
     }
-    static double calcIva(int precio) {
+    static String calcIva(int precio) {
         double iva = 1.19;
-        return precio*iva ;
+        return "Precio con Iva "+precio*iva ;
         }
 }
