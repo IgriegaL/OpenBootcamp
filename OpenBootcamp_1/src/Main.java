@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Ingrese el precio a calcular sin puntos: ");
-        // el objeto de entrada estándar predefinido
+        // Crea Scanner
         Scanner sc = new Scanner(System.in);
+        //transforma Scanner en Int
         int num = sc.nextInt();
-        // entrada de una cadena
+        // entrada de información a la función
         System.out.println(calcIva(num));
 
     }
