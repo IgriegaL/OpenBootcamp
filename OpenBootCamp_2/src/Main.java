@@ -16,7 +16,7 @@ public class Main {
             a = a +" "+ nombre;
 
         }
-        // MoWstramos variable.
+        // MoWstramos variable..
         System.out.println( a  );
 
     }
